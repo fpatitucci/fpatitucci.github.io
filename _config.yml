@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Francisco's Homepage"
 title_separator          : "-"
-name                     : &name "Francisco Patitucci Perez"
+name                     : &name "Francisco Patitucci"
 description              : &description "personal description"
 url                      : https://fpatitucci.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
