@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Francisco Patitucci Perez"
-  avatar           : "profile.png"
+  avatar           : "profile_picture.jpeg"
   bio              : "Your biography for the left-hand sidebar"
   location         : "Austin, Texas"
   employer         : "WNCG UT Austin"
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : 
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/franciscopatitucciperez/"
+  linkedin         : "franciscopatitucciperez"
   orcid            : 
   pinterest        :
   soundcloud       :
