@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Francisco's Homepage"
+title                    : "Francisco's homepage"
 title_separator          : "-"
 name                     : &name "Francisco Patitucci Perez"
 description              : &description "personal description"
