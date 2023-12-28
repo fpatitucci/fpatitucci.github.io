@@ -12,8 +12,8 @@ redirect_from:
 Education
 ======
 * Degree in Engineering, Aeronautical Engineering. Universidad Nacional de La Plata, 2021
-* M.Sc in Mathematical Engineering, Universidad de Buenos Aires, (currently on hold)
-* Ph.D in Electrical Engineering, University of Texas at Austin, (in progress)
+* M.Sc. in Mathematical Engineering, Universidad de Buenos Aires, (currently on hold)
+* Ph.D. in Electrical Engineering, University of Texas at Austin, (in progress)
 
 Work experience
 ======

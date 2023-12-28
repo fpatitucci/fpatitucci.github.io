@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Francisco Patitucci Perez"
   avatar           : "profile_picture.jpeg"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : 
   location         : "Austin, Texas"
   employer         : "WNCG UT Austin"
   pubmed           : 
