@@ -11,23 +11,18 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Degree in Engineering, Aeronautical Engineering. Universidad Nacional de La Plata, 2021
+* M.Sc in Mathematical Engineering, Universidad de Buenos Aires, (currently on hold)
+* Ph.D in Electrical Engineering, University of Texas at Austin, (in progress)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* January 2021 - April 2022: Research Assistant
+  * LEICI (Institute of Research in Electronics, Control, and Signal Processing) - UNLP
+  * Supervisor: Paul Puleston and Jorge Anderson
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
   
-Skills
+[ Skills
 ======
 * Skill 1
 * Skill 2
@@ -56,4 +51,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams ]
