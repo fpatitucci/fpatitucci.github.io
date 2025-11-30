@@ -19,4 +19,4 @@ Work experience
 ======
 * January 2021 - April 2022: Research Assistant
   * LEICI (Institute of Research in Electronics, Control, and Signal Processing) - UNLP
-  * Supervisor: Paul Puleston and Jorge Anderson
+  * Supervisor: Paul Puleston

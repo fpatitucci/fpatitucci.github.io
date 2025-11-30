@@ -8,8 +8,6 @@ redirect_from:
   - /about.html
 ---
 
- I am a first-year Ph.D. student in the ECE Department (DICE track), at the University of Texas at Austin, advised by Prof. Aryan Mokhtari. 
+I’m a third-year Ph.D. student in ECE at UT Austin, working with Prof. Aryan Mokhtari on optimization and machine learning. My research focuses on optimization algorithms; for more details, please refer to my publications or Google Scholar.
 
-
-Before joining UT Austin, I completed my engineering degree at Universidad Nacional de La Plata, where I obtained the “Ing. Isidoro Marín” 2022 Medal from the Argentinian National Academy of Engineering due to my academic performance. In addition, I was pursuing an M.Sc. in Mathematical Engineering at Universidad de Buenos Aires (currently on hold).
-
+Previously, I completed my engineering degree at Universidad Nacional de La Plata, where I received the 2022 “Ing. Isidoro Marín” Medal from the Argentinian National Academy of Engineering. I also began an M.Sc. in Mathematical Engineering at the Universidad de Buenos Aires before starting my Ph.D.

@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Francisco's homepage"
 title_separator          : "-"
-name                     : &name "Francisco Patitucci Perez"
+name                     : &name "Francisco Patitucci"
 description              : &description "personal description"
 url                      : https://fpatitucci.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -84,9 +84,9 @@ author:
   avatar           : "profile_picture.jpeg"
   bio              : 
   location         : "Austin, Texas"
-  employer         : "WNCG UT Austin"
+  employer         : "Machine Learning Lab UT Austin"
   pubmed           : 
-  googlescholar    : 
+  googlescholar    : "Francisco Patitucci"
   email            :
   researchgate     :  
   uri              :
