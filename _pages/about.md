@@ -16,7 +16,7 @@ Before joining UT Austin, I earned my engineering degree from the Universidad Na
 
 ## Publications
 
-For a complete and automatically updated list, see my [Google Scholar profile]({{ site.author.googlescholar }}).
+For a complete list see my [Google Scholar profile]({{ site.author.googlescholar }}).
 
 {% assign publications = site.publications | sort: "date" | reverse %}
 <div class="publication-list">
