@@ -2,54 +2,9 @@
    Site-specific layout polish
    ========================================================================== */
 
-.profile-lede {
-  margin-bottom: 1.25rem;
-  color: $darker-gray;
-  font-size: $type-size-4;
-  line-height: 1.55;
-}
-
-.profile-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin: 1rem 0 2rem;
-
-  .btn {
-    margin: 0;
-  }
-}
-
-.research-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1rem 1.25rem;
-  margin: 0.75rem 0 1.75rem;
-}
-
-.research-item {
-  padding-left: 0.9rem;
-  border-left: 3px solid $info-color;
-
-  h3 {
-    margin: 0 0 0.35rem;
-    font-size: $type-size-5;
-  }
-
-  p {
-    margin: 0;
-    font-size: $type-size-6;
-    line-height: 1.5;
-  }
-}
-
 .publication-list {
   margin: 1rem 0 1.75rem;
   border-top: 1px solid $border-color;
-}
-
-.publication-list--compact {
-  margin-bottom: 1rem;
 }
 
 .publication-entry {
@@ -87,36 +42,5 @@
 
   .btn {
     margin: 0;
-  }
-}
-
-.news-list {
-  margin: 1rem 0 1.75rem;
-  padding-left: 0;
-  border-top: 1px solid $border-color;
-  list-style: none;
-}
-
-.news-list li {
-  display: grid;
-  grid-template-columns: 4.25rem minmax(0, 1fr);
-  gap: 0.75rem;
-  padding: 0.75rem 0;
-  border-bottom: 1px solid $border-color;
-}
-
-.news-date {
-  color: $darker-gray;
-  font-weight: 700;
-}
-
-@media (max-width: 600px) {
-  .profile-lede {
-    font-size: $type-size-5;
-  }
-
-  .news-list li {
-    grid-template-columns: 1fr;
-    gap: 0.2rem;
   }
 }

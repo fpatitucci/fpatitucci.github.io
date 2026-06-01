@@ -13,7 +13,7 @@ This page collects my research papers. You can also find an automatically update
 <div class="publication-list">
 {% for post in publications %}
   <article class="publication-entry">
-    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <h2>{{ post.title }}</h2>
     {% if post.authors %}<p class="publication-authors">{{ post.authors }}</p>{% endif %}
     <p class="publication-venue"><em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</p>
     {% if post.paperurl %}
