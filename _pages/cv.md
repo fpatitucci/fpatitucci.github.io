@@ -3,11 +3,11 @@ layout: archive
 title: "Resume"
 permalink: /cv/
 author_profile: true
-redirect_to: /files/CV_Francisco_Patitucci____webpage_1.pdf
+redirect_to: /files/CV_Francisco_Patitucci____webpage_2.pdf
 redirect_from:
   - /resume
 ---
 
 {% include base_path %}
 
-[Open the resume PDF](/files/CV_Francisco_Patitucci____webpage_1.pdf)
+[Open the resume PDF](/files/CV_Francisco_Patitucci____webpage_2.pdf)
