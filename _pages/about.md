@@ -1,7 +1,6 @@
 ---
 permalink: /
-title: "About me"
-excerpt: "About me"
+excerpt: "Francisco Patitucci"
 author_profile: true
 hide_title: true
 redirect_from: 
