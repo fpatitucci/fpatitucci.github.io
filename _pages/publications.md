@@ -5,12 +5,24 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
+This page collects my research papers. You can also find an automatically updated list on my <a href="{{ site.author.googlescholar }}">Google Scholar profile</a>.
+
+{% assign publications = site.publications | sort: "date" | reverse %}
+<div class="publication-list">
+{% for post in publications %}
+  <article class="publication-entry">
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    {% if post.authors %}<p class="publication-authors">{{ post.authors }}</p>{% endif %}
+    <p class="publication-venue"><em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</p>
+    {% if post.paperurl %}
+      <p class="publication-links"><a class="btn btn--small" href="{{ post.paperurl }}">Paper</a></p>
+    {% endif %}
+  </article>
 {% endfor %}
+</div>
+
+{% if publications.size == 0 %}
+  <p>No publications have been added yet.</p>
+{% endif %}

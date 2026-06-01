@@ -12,8 +12,7 @@ main:
     url: /files/cv_Francisco_Patitucci_webpage.pdf
 
   - title: "Publications"
-    # url: /publications/
-    url: "https://scholar.google.com/citations?user=ZPJ3u54AAAAJ&hl=en"
+    url: /publications/
 
   # - title: "Talks"
   #   url: /talks/    

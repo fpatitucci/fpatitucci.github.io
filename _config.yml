@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Francisco's homepage"
+title                    : "Francisco Patitucci"
 title_separator          : "-"
 name                     : &name "Francisco Patitucci"
-description              : &description "personal description"
+description              : &description "Ph.D. student at UT Austin working on optimization algorithms for machine learning."
 url                      : https://fpatitucci.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "fpatitucci/fpatitucci.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -66,9 +66,12 @@ og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : Person
+  name                   : "Francisco Patitucci"
   links: # An array of links to social media profiles
+    - https://github.com/fpatitucci
+    - https://www.linkedin.com/in/franciscopatitucciperez
+    - https://scholar.google.com/citations?user=ZPJ3u54AAAAJ&hl=en
 
 
 # Analytics
@@ -82,9 +85,9 @@ analytics:
 author:
   name             : "Francisco Patitucci"
   avatar           : "profile_picture.jpeg"
-  bio              : 
+  bio              : "Ph.D. student at UT Austin working on optimization for machine learning."
   location         : "Austin, Texas"
-  employer         : "Machine Learning Lab UT Austin"
+  employer         : "Machine Learning Lab, UT Austin"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=ZPJ3u54AAAAJ&hl=en"
   email            : "fpatitucci@utexas.edu"
