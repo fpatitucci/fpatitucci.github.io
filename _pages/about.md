@@ -24,10 +24,13 @@ For a complete list see my [Google Scholar profile]({{ site.author.googlescholar
   <article class="publication-entry">
     <h3>{{ post.title }}</h3>
     {% if post.authors %}<p class="publication-authors">{{ post.authors }}</p>{% endif %}
-    <p class="publication-venue"><em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</p>
-    {% if post.paperurl %}
-      <p class="publication-links"><a href="{{ post.paperurl }}">Paper</a></p>
-    {% endif %}
+    <p class="publication-meta">
+      <span><em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</span>
+      {% if post.paperurl %}
+        <span class="publication-separator">&middot;</span>
+        <a href="{{ post.paperurl }}">Paper</a>
+      {% endif %}
+    </p>
   </article>
 {% endfor %}
 </div>
