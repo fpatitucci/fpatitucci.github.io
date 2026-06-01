@@ -55,9 +55,17 @@ body {
   }
 }
 
+div.author__avatar {
+  width: 52px;
+}
+
 .author__avatar img {
-  max-width: 145px;
+  width: 52px;
+  height: 52px;
+  max-width: 52px;
   border-color: $border-color;
+  object-fit: cover;
+  object-position: 50% 24%;
 }
 
 .sidebar .author__name {
@@ -156,6 +164,12 @@ body {
   }
 }
 
+.publication-venue-mark {
+  color: $text-color;
+  font-style: normal;
+  font-weight: 650;
+}
+
 .publication-separator {
   color: mix(#fff, $gray, 30%);
 }
@@ -168,5 +182,41 @@ body {
   footer {
     margin-top: 1rem;
     padding-bottom: 1.25rem;
+  }
+}
+
+@include breakpoint($large) {
+  div.author__avatar {
+    width: auto;
+  }
+
+  .author__avatar img {
+    width: 145px;
+    height: 145px;
+    max-width: 145px;
+  }
+}
+
+@media (max-width: 57.8125em) {
+  #main {
+    margin-top: 1.45em;
+    padding-left: 1.15em;
+    padding-right: 1.15em;
+  }
+
+  .page__content {
+    max-width: none;
+
+    h2 {
+      margin-top: 2.1rem;
+    }
+  }
+
+  .publication-list {
+    margin-top: 0.85rem;
+  }
+
+  .publication-entry {
+    padding: 0.95rem 0;
   }
 }

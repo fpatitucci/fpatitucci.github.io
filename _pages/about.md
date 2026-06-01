@@ -3,6 +3,7 @@ permalink: /
 title: "About me"
 excerpt: "About me"
 author_profile: true
+hide_title: true
 redirect_from: 
   - /about/
   - /about.html
@@ -24,8 +25,11 @@ For a complete list see my [Google Scholar profile]({{ site.author.googlescholar
   <article class="publication-entry">
     <h3>{{ post.title }}</h3>
     {% if post.authors %}<p class="publication-authors">{{ post.authors }}</p>{% endif %}
+    {% assign venue = post.venue %}
+    {% assign venue = venue | replace: "(ICLR)", "(<span class='publication-venue-mark'>ICLR</span>)" %}
+    {% assign venue = venue | replace: "(STOC 2025)", "(<span class='publication-venue-mark'>STOC</span>)" %}
     <p class="publication-meta">
-      <span><em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</span>
+      <span><em>{{ venue }}</em>, {{ post.date | date: "%Y" }}</span>
       {% if post.paperurl %}
         <span class="publication-separator">&middot;</span>
         <a href="{{ post.paperurl }}">Paper</a>
