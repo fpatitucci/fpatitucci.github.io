@@ -2,6 +2,56 @@
    Site-specific layout polish
    ========================================================================== */
 
+body {
+  line-height: 1.6;
+}
+
+.masthead {
+  border-bottom-color: $border-color;
+  background: $background-color;
+}
+
+.greedy-nav {
+  a {
+    border-bottom: 2px solid transparent;
+    color: $darker-gray;
+
+    &:hover {
+      border-bottom-color: $info-color;
+      color: $info-color;
+      text-decoration: none;
+    }
+  }
+}
+
+.page__title {
+  color: $text-color;
+  font-weight: 650;
+  letter-spacing: 0;
+}
+
+.page__content {
+  p,
+  li {
+    line-height: 1.65;
+  }
+}
+
+.author__avatar img {
+  max-width: 145px;
+  border-color: $border-color;
+}
+
+.sidebar .author__name {
+  color: $text-color;
+  font-weight: 650;
+}
+
+.sidebar .author__bio,
+.author__urls li {
+  color: $gray;
+}
+
 .publication-list {
   margin: 0.85rem 0 1.75rem;
   border-top: 1px solid $border-color;
@@ -24,21 +74,42 @@
   h3 {
     font-size: $type-size-5;
   }
+
+  h2,
+  h3 {
+    color: $text-color;
+    font-weight: 650;
+    letter-spacing: 0;
+  }
 }
 
 .publication-authors,
 .publication-venue {
   margin: 0.25rem 0;
   color: $gray;
-  font-size: $type-size-6;
+  font-size: 0.82em;
   line-height: 1.45;
 }
 
 .publication-links {
   margin: 0.45rem 0 0;
-  font-size: $type-size-6;
+  font-size: 0.82em;
 
   a {
+    color: $info-color;
     font-weight: 700;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.16em;
+  }
+}
+
+.page__footer {
+  color: $gray;
+  background-color: transparent;
+  border-top: 1px solid $border-color;
+
+  footer {
+    margin-top: 1rem;
+    padding-bottom: 1.25rem;
   }
 }
