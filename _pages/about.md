@@ -8,6 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I’m a third-year Ph.D. student in the Electrical and Computer Engineering Department at the University of Texas at Austin, advised by [Prof. Aryan Mokhtari](https://sites.utexas.edu/mokhtari/). My research focuses on optimization algorithms for machine learning; for more details, please see my publications page.
 
-Before starting my Ph.D., I completed my engineering degree at the Universidad Nacional de La Plata, where I received the 2022 Ing. Isidoro Marín Medal from the Argentinian National Academy of Engineering. I also began an M.Sc. in Mathematical Engineering at the Universidad de Buenos Aires.
+I am a Ph.D. student in the Department of Electrical and Computer Engineering at The University of Texas at Austin, advised by [Prof. Aryan Mokhtari](https://sites.utexas.edu/mokhtari/). My research focuses on optimization algorithms for machine learning, especially nonconvex optimization, online learning methods, and adaptive optimization. I am particularly interested in designing optimization methods that combine provable guarantees with strong empirical performance in modern machine learning systems.
+
+I am also open to internship opportunities in optimization, machine learning, and quantitative research.
+
+Before joining UT Austin, I earned my engineering degree from the Universidad Nacional de La Plata, where I received the 2022 Ing. Isidoro Marín Medal from the National Academy of Engineering of Argentina. I also pursued graduate studies in Mathematical Engineering at the Universidad de Buenos Aires.
