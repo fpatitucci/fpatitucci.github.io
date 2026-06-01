@@ -28,10 +28,9 @@ For a complete list see my [Google Scholar profile]({{ site.author.googlescholar
     {% assign venue = venue | replace: "(ICLR)", "(<span class='publication-venue-mark'>ICLR</span>)" %}
     {% assign venue = venue | replace: "(STOC 2025)", "(<span class='publication-venue-mark'>STOC</span>)" %}
     <p class="publication-meta">
-      <span><em>{{ venue }}</em>, {{ post.date | date: "%Y" }}</span>
+      <span class="publication-venue-line"><em>{{ venue }}</em>, {{ post.date | date: "%Y" }}</span>
       {% if post.paperurl %}
-        <span class="publication-separator">&middot;</span>
-        <a href="{{ post.paperurl }}">Paper</a>
+        <span class="publication-link-line"><a href="{{ post.paperurl }}">Paper</a></span>
       {% endif %}
     </p>
   </article>
