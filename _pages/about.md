@@ -1,8 +1,10 @@
 ---
 permalink: /
 excerpt: "Francisco Patitucci"
+description: "Francisco Patitucci is a Ph.D. student at The University of Texas at Austin working on optimization for machine learning."
 author_profile: true
 hide_title: true
+sitemap: true
 redirect_from: 
   - /about/
   - /about.html
