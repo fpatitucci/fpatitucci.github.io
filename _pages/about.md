@@ -16,6 +16,8 @@ Before joining UT Austin, I earned my engineering degree from the Universidad Na
 
 ## Publications
 
+For a complete and automatically updated list, see my [Google Scholar profile]({{ site.author.googlescholar }}).
+
 {% assign publications = site.publications | sort: "date" | reverse %}
 <div class="publication-list">
 {% for post in publications %}
@@ -24,7 +26,7 @@ Before joining UT Austin, I earned my engineering degree from the Universidad Na
     {% if post.authors %}<p class="publication-authors">{{ post.authors }}</p>{% endif %}
     <p class="publication-venue"><em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</p>
     {% if post.paperurl %}
-      <p class="publication-links"><a class="btn btn--small" href="{{ post.paperurl }}">Paper</a></p>
+      <p class="publication-links"><a href="{{ post.paperurl }}">Paper</a></p>
     {% endif %}
   </article>
 {% endfor %}

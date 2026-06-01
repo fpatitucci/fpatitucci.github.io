@@ -17,7 +17,7 @@ This page collects my research papers. You can also find an automatically update
     {% if post.authors %}<p class="publication-authors">{{ post.authors }}</p>{% endif %}
     <p class="publication-venue"><em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</p>
     {% if post.paperurl %}
-      <p class="publication-links"><a class="btn btn--small" href="{{ post.paperurl }}">Paper</a></p>
+      <p class="publication-links"><a href="{{ post.paperurl }}">Paper</a></p>
     {% endif %}
   </article>
 {% endfor %}

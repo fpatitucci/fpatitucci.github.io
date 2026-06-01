@@ -12,7 +12,7 @@ main:
     url: /files/cv_Francisco_Patitucci_webpage.pdf
 
   - title: "Publications"
-    url: /publications/
+    url: /#publications
 
   # - title: "Talks"
   #   url: /talks/    
